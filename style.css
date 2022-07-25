@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+body {
+    height: 100vh;
+    background-color: #22272E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-app {
+    border: 2px solid #ffffff;
+    padding: 30px 30px;
+    width: 35%;
+    min-width: 1000px;
+}
+
+.new-task-container {
+    padding: 30px 30px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
+    display: flex;
+    
+
+}
+
+.new-task-container input {
+    flex: 3;
+    font-size: 1rem;
+    border: 2px solid #d1d3d4;
+    border-radius: 5px;
+    padding: 15px;
+    font-weight: 500;
+
+}
+
+
+.add-task {
+    flex: 1;
+    border-radius: 5px ;
+    font-weight: 500;
+    height: 100%;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    background-color: #41b883;
+    color: #ffffff;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 15px;
+}
+
+.tasks-container {
+    background-color: #ffffff;
+    padding: 30px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+/* Utilites */
+
+
+.error {
+    border: 2px solid red !important;
+}
+
+.error::placeholder {
+    color: red;
+}
